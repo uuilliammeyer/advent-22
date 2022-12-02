@@ -6,7 +6,7 @@ fn main() {
     let mut best = 0;
     let mut curr = 0;
     // find (assuming it exits)
-    if let Ok(lines) = read_lines(TESTDIR.to_owned() +"/day1/calorie_test.txt") {
+    if let Ok(lines) = read_lines(TESTDIR.to_owned() +"/day1/input.txt") {
         // Consumes the iterator, returns an (Optional) String
         for line in lines {
             if let Ok(i) = line {
