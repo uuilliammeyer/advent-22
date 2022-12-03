@@ -41,6 +41,6 @@ fn line_value(x: &str) -> i32 {
         "B Z" => 6 + 3,
         // throw scissors and we need to win, so throw rock (1)
         "C Z" => 6 + 1,
-        _ => -100000
+        _ => unreachable!("You shouldn't be here!")
     }
 }

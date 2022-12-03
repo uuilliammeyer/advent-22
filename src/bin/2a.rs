@@ -30,7 +30,7 @@ fn line_value(x: &str) -> i32 {
         "C Y" => 0 + 2,
         "A Z" => 0 + 3,
         "B Z" => 6 + 3,
-        "C Z" => 3 +3,
-        _ => -100000
+        "C Z" => 3 + 3,
+        _ => unimplemented!("You shouldn't be here!")
     }
 }
